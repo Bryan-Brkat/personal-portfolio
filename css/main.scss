@@ -125,10 +125,23 @@ code, pre, kbd, samp {
   .about-intro {
     flex-direction: column;
     gap: 1rem;
+    align-items: center; /* This centers the image and text block */
+    text-align: center;  /* This centers your text paragraph */
   }
 
   .about-intro img.profile-picture {
     width: 180px !important;
     height: 180px !important;
+    margin: 0 auto !important; /* This forces the image exactly to the middle */
   }
+}
+
+/* =========================
+   Responsive Embedded Videos
+   ========================= */
+
+.content iframe {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Keeps the standard YouTube video proportions */
 }
