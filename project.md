@@ -9,7 +9,7 @@ Prototypes/Startup ideas that I've worked on. For each idea, I've included a bri
 ## 1) SwapMou: Peer-to-peer Skill Exchange Platform
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="Skill_Swap_Cropped.png" alt="SwapMou Platform" style="width: 300px; border-radius: 8px;">
+  <img src="{{ site.baseurl }}/Skill_Swap_Cropped.png" alt="SwapMou Platform" style="width: 300px; border-radius: 8px;">
 </div>
 
 **Description:** SwapMou helps university students who hesitate to learn new skills due to financial constraints by offering a peer-to-peer skill exchange platform, making education more accessible and affordable at scale.

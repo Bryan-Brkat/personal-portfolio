@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="about-intro">
-  <img class="profile-picture" src="profile.png" alt="Photo of Bryan Brkat">
+  <img class="profile-picture" src="{{ site.baseurl }}/profile.png" alt="Photo of Bryan Brkat">
   <div class="about-text">
     <h2>About Me</h2>
     <p>
