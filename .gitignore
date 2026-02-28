@@ -1,0 +1,12 @@
+_site/
+.sass-cache
+.sass-cache/
+.DS_Store
+.jekyll-cache/
+.vscode
+
+
+node_modules/
+.env
+
+Gemfile*

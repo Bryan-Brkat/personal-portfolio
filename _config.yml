@@ -1,0 +1,30 @@
+title: Bryan Brkat
+url: "https://bryan-brkat.github.io/personal-portfolio/"
+baseurl: ""  # If your site is at the root domain, this should be empty. Otherwise, it should be "/repository-name"
+
+markdown: kramdown
+
+# Uncomment and update the following line if you have a tracking ID to use
+# tracking_id: YOUR_GOOGLE_ANALYTICS_TRACKING_ID
+
+footer: no
+footer_url: "https://github.com/bryanbrkat"
+footer_text: "Page design by Bryan Brkat, for Jekyll based template"
+
+sass:
+  style: compressed
+  sass_dir: _sass
+# - name: "MISC"
+#   link: "/research"   # Same here, ensure this is the correct link to your contact page.
+#   openInNewTab: Yes
+nav:
+  - name: "ABOUT"
+    link: "/"
+  - name: "PROJECTS"
+    link: "/project"  # Make sure this link is correct. If projects.md is in the root, this is fine.
+#  - name: "NOTES"
+#    link: "/mlposts"   # Same here, ensure this is the correct link to your contact page.
+#    openInNewTab: Yes
+  - name: "RESUME"
+    link: "resume.pdf"
+  

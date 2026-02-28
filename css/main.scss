@@ -1,0 +1,134 @@
+---
+---
+@import "style";
+
+/* =========================
+   Global font definitions
+   ========================= */
+
+:root {
+  --font-sans: 'Karla', -apple-system, BlinkMacSystemFont,
+               'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --font-mono: 'JetBrains Mono Variable', ui-monospace,
+               SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* =========================
+   Base typography (CONSISTENCY)
+   ========================= */
+
+html {
+  font-size: 17px; /* controls everything; try 16–18 */
+}
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.65;
+  font-feature-settings: "kern", "liga";
+  color: #222;
+}
+
+/* Make all common text elements consistent */
+p, li {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Keep heading sizes predictable (theme sometimes overrides) */
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+/* Navigation + footer (themes often override these) */
+.navbar,
+.navbar a,
+#author-name,
+footer,
+footer * {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
+
+/* Monospace ONLY for code */
+code, pre, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.95em;
+}
+
+/* =========================
+   About intro layout (THIS FIXES YOUR ISSUE)
+   ========================= */
+
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0 1.5rem;
+}
+
+/* Make sure theme image rules can't override */
+.about-intro img.profile-picture {
+  width: 190px !important;       /* adjust 220–280 */
+  height: 240px !important;
+  max-width: none !important;    /* stops theme from auto-scaling */
+  border-radius: 0;
+  object-fit: cover;
+  display: block;
+  flex: 0 0 auto;
+  margin: 0 !important;
+}
+
+/* Text block next to the image */
+.about-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Remove extra top margin on the About heading (looks cleaner) */
+.about-text h2 {
+  margin-top: 0;
+}
+
+/* =========================
+   Lists styling (News / Contact)
+   ========================= */
+
+.news-list,
+.contact-list {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.news-list li,
+.contact-list li {
+  margin: 0.5rem 0;
+}
+
+/* =========================
+   Mobile responsiveness
+   ========================= */
+
+@media (max-width: 720px) {
+  .about-intro {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-intro img.profile-picture {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
