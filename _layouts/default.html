@@ -71,7 +71,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="navbar container">
+        <!-- <div class="navbar container">
             {% if site.ins_logo %}
                 <img id="ins-logo" src="{{ site.ins_logo }}" />
             {% endif %}
@@ -87,6 +87,25 @@
                         /
                     {% endif %}
                         </li>
+                {% endfor %}
+            </ul>
+        </div> -->
+                    
+        <div class="navbar container">
+            {% if site.ins_logo %}
+                <img id="ins-logo" src="{{ site.ins_logo | relative_url }}" />
+            {% endif %}
+            <a id="author-name" class="alignable pull-left" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.nav %}
+                    <li class="alignable pull-left nav-list">
+                        {% if x.name == "RESUME" %}
+                            <a target="_blank" href="{{ x.link | relative_url }}">{{ x.name }}</a>
+                        {% else %}
+                            <a href="{{ x.link | relative_url }}">{{ x.name }}</a>
+                        {% endif %}
+                        {% if forloop.last == false %} / {% endif %}
+                    </li>
                 {% endfor %}
             </ul>
         </div>
@@ -119,3 +138,5 @@
 </body>
 <footer>
 </footer>
+
+

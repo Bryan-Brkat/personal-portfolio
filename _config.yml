@@ -1,6 +1,6 @@
 title: Bryan Brkat
 url: "https://bryan-brkat.github.io"
-baseurl: "/personal-portfolio"  # If your site is at the root domain, this should be empty. Otherwise, it should be "/repository-name"
+baseurl: "/personal-portfolio"
 
 markdown: kramdown
 
