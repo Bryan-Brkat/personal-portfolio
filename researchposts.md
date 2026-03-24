@@ -1,9 +1,36 @@
 ---
 layout: default
-title: ML Posts
+title: Research
 ---
 
-# My thoughts and opinions for Bayesian Machine Learning. 
+<h1 style="border-bottom: 2px solid #333; padding-bottom: 10px;">Startups</h1>
+Startup Analysis. For each one, I’ve put together a **1 page investment memo** that hits on the most important details you need to know. Take a look to see which business models and big ideas I’m currently betting on.
+
+## <u>Early-Stage (Pre-seed & Seed)</u>
+## 1) Aser AI
+- **[View Investment Memo]({{ site.baseurl }}/Investment_Memo_AserAI.pdf)**
+
+## 2) SkyRealm
+- **[View Investment Memo]({{ site.baseurl }}/Investment_Memo_SkyRealm.pdf)**
+
+## 3) Kapitani
+- **[View Investment Memo]({{ site.baseurl }}/Investment_Memo_Kapitani.pdf)**
+
+## <u>Growth-Stage (Series A-C)</u>
+## 1) Halogen Capital
+- **[View Investment Memo]({{ site.baseurl }}/Investment_Memo_HalogenCapital.pdf)**
+
+<!-- ## <u>Late-Stage (Pre-IPO)</u> -->
+
+<h1 style="border-bottom: 2px solid #333; padding-bottom: 10px;">Corporations</h1>
+Corporation Analysis. These deep dives are a bit more intense where I draft **longer investment memos** and build **full financial models** including 3-statement projections, DCF valuations and sensitivity testing.
+
+## 1) Apple
+- **[View Investment Memo - Coming Soon]()**
+- **[View Financial Model]({{ site.baseurl }}/Financial_Statement_Analysis_APPL_v3.xlsx)**
+
+
+<!-- # My thoughts and opinions for Bayesian Machine Learning. 
 I want to document my journey in Machine Learning where I stamp interesting frameworks and why I find them interesting. 
 A reminder to self: Great ideas do not come from nowhere. They are derived from fundamental concepts, collaboration, and lots of trial and error. 
 
@@ -25,3 +52,4 @@ I wanted to investigate the origin story for [InfoBAX](https://arxiv.org/abs/210
 - **My thoughts on InfoBAX:** [InfoBAX_insights](/documents/InfoBAX_insights.pdf)
 - **Relevant Concepts:** [Lindley's EIG](https://projecteuclid.org/euclid.aoms/1177728069), [Hennig's Entropy Search](https://arxiv.org/abs/1112.1217), [Krause's Mutual Information Maximization](https://jmlr.org/papers/v9/krause08a.html), [A Geneticist's Approximate Bayesian Computation demonstration](https://pubmed.ncbi.nlm.nih.gov/10605120/).
 
+-->

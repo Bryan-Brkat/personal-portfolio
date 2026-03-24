@@ -40,7 +40,7 @@ Personal projects that I've worked on. For each project, I've included a brief d
 - **Coding Language used:** JavaScript
 - **Apps/Software used:** Visual Studio Code, Notion, Rows & Excel
 <!-- - **[View Project](/documents/23205123_GP_MOBO.pdf)** -->
-- **[Source Code](https://github.com/Bryan-Brkat/Notion-Financial-Portfolio-Tracker)**
+- **[View Source Code](https://github.com/Bryan-Brkat/Notion-Financial-Portfolio-Tracker)**
 
 ## 2) PowerBI: Persistency Analysis Data Visualization
 
@@ -94,7 +94,7 @@ Personal projects that I've worked on. For each project, I've included a brief d
 - **Apps/Software used:** RStudio
 - **[View Project]({{ '/documents/Regression_Analysis_Coronary_Heart_Disease.pdf' | relative_url }})**
 <!--- **[View Project 2](/documents/ABO-ML-MCMC.pdf)** -->
-- **[Source Code]({{ '/documents/Regression_Analysis_Coronary_Heart_Disease_Code.pdf' | relative_url }})**
+- **[View Source Code]({{ '/documents/Regression_Analysis_Coronary_Heart_Disease_Code.pdf' | relative_url }})**
 
 <!-- ## Using Structural Bioinformatics Approach for GULO functionality
 ![Project Image 2](GULO_GENE.png)
