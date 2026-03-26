@@ -20,6 +20,10 @@ Startup Analysis. For each one, I’ve put together a **1 page investment memo**
 ## 1) Halogen Capital
 - **[View Investment Memo]({{ site.baseurl }}/Investment_Memo_HalogenCapital.pdf)**
 
+## <u>Extra Materials</u>
+- **[View Startup Financial Model Template]({{ site.baseurl }}/Startup_Valuation_Model.xlsx)**
+
+
 <!-- ## <u>Late-Stage (Pre-IPO)</u> -->
 
 <h1 style="border-bottom: 2px solid #333; padding-bottom: 10px;">Corporations</h1>
